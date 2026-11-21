@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sistema de Gestión para Talleres: presupuestos, órdenes de trabajo, repuestos, compras, facturación y personal en plataformas conectadas.">
+  <title>Sistema de Gestión para Talleres | HYC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .contact-card{background:rgba(255,255,255,.96);border:1px solid #e2f1ee;border-radius:24px;padding:24px;box-shadow:0 12px 28px rgba(20,83,91,.10)}
+    .contact-card h2{font:700 27px "Barlow Condensed",sans-serif;line-height:1.12;color:#1a535c;margin:0}
+    .contact-intro{font-size:12px;line-height:1.75;color:#70898c;margin:9px 0 17px}
+    .contact-options{display:grid;gap:10px}
+    .contact-option{display:flex;align-items:center;gap:12px;padding:13px 14px;border:1px solid #e2f0ee;border-radius:14px;background:#f8fdfc;transition:.2s}
+    .contact-option:hover{border-color:#2ec4b6;background:#effbf8;transform:translateY(-1px)}
+    .contact-icon{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:12px;background:#e0f6f4;color:#1a535c;font-size:20px}
+    .contact-option strong,.contact-option small{display:block}
+    .contact-option strong{font-size:12px;color:#174d55}
+    .contact-option small{font-size:11px;color:#70898c;margin-top:2px}
+    .contact-arrow{margin-left:auto;color:#2ec4b6;font-size:25px;line-height:1}
+    .contact-note{font-size:10px;line-height:1.6;text-align:center;color:#91a4a5;margin:13px 0 0}
+    @media(max-width:650px){.contact-card{padding:19px}.contact-card h2{font-size:25px}}
+  </style>
+
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="HYC, inicio"><span class="brand-mark">✦</span><strong>HYC</strong></a>
+  <nav class="main-nav" aria-label="Navegación principal">
+    <a href="#modulos">Módulos</a><a href="#beneficios">Beneficios</a><a href="#como-funciona">Cómo funciona</a><a href="#faq">FAQ</a><a href="Proceso_Gestion_Taller.html" target="_blank" rel="noopener">Infografía</a>
+  </nav>
+  <a class="button button-coral header-cta" href="#contacto">✉ Contacto</a>
+  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+</header>
+
+<main id="inicio">
+  <section class="hero section-wrap">
+    <div class="hero-visual">
+      <div class="hero-orbit"></div>
+      <div class="hero-photo"><img src="assets/taller-mecanico.jpg" alt="Trabajo de mecánica en un taller"></div>
+      <span class="bubble bubble-one"></span><span class="bubble bubble-two"></span>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">SOFTWARE DE GESTIÓN PARA TALLERES</p>
+      <h1>Todo su taller en un solo sistema</h1>
+      <p class="hero-lead">Gestione presupuestos, cotizaciones, órdenes de trabajo, repuestos, compras, facturación y personal, con la información conectada desde el computador, el celular Android y la web.</p>
+      <div class="contact-card" id="contacto">
+        <p class="eyebrow">ESTAMOS PARA AYUDARLE</p>
+        <h2>Conozca cómo puede mejorar la gestión de su taller</h2>
+        <p class="contact-intro">¿Desea conocer el sistema o conocer el sistema? Comuníquese con nosotros por el medio que le resulte más cómodo. Estaremos encantados de atenderle y resolver sus consultas.</p>
+        <div class="contact-options">
+          <a class="contact-option" href="mailto:hyagodec@gmail.com?subject=Consulta%20sobre%20el%20Sistema%20de%20Gesti%C3%B3n%20para%20Talleres">
+            <span class="contact-icon" aria-hidden="true">✉</span>
+            <span><strong>Envíenos un correo</strong><small>hyagodec@gmail.com</small></span>
+            <span class="contact-arrow" aria-hidden="true">›</span>
+          </a>
+          <a class="contact-option" href="https://wa.me/56954110918?text=Hola%2C%20quisiera%20conocer%20el%20Sistema%20de%20Gesti%C3%B3n%20para%20Talleres." target="_blank" rel="noopener">
+            <span class="contact-icon" aria-hidden="true">☏</span>
+            <span><strong>Contáctenos por WhatsApp</strong><small>+56 9 5411 0918</small></span>
+            <span class="contact-arrow" aria-hidden="true">›</span>
+          </a>
+        </div>
+        <p class="contact-note">Cuéntenos qué necesita y le entregaremos información sobre el sistema y sus funcionalidades.</p>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div><b>8</b><span>MÓDULOS<br>INTEGRADOS</span></div>
+      <div><b>3</b><span>PLATAFORMAS<br>CONECTADAS</span></div>
+      <div><b>100%</b><span>INFORMACIÓN<br>SINCRONIZADA*</span></div>
+    </div>
+  </section>
+
+  <section class="trust-strip section-wrap" aria-label="Características principales">
+    <div>▣ <span>Disponible en computador,<br>Android y web</span></div>
+    <div>◉ <span>Una sola base de datos<br>sincronizada</span></div>
+    <div>▤ <span>Informes y control de la<br>actividad</span></div>
+    <div>✦ <span>Implementación y soporte<br>cercano</span></div>
+  </section>
+
+  <section class="section section-wrap" id="modulos">
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">MÓDULOS DEL SISTEMA</p><h2>Todos los procesos de su taller conectados en un solo lugar.</h2></div>
+      <p>Cada módulo comparte la misma base de datos, así la información de clientes, vehículos y trabajos fluye sin volver a escribirla.</p>
+    </div>
+    <div class="module-grid">
+      <article class="info-card"><span class="icon-box">▣</span><h3>Presupuestos y cotizaciones</h3><p>Cree presupuestos y cotizaciones con repuestos y mano de obra detallados, y conviértalos en órdenes de trabajo.</p><a class="button button-teal" href="#contacto">Consultar</a></article>
+      <article class="info-card"><span class="icon-box">▤</span><h3>Órdenes de trabajo</h3><p>Registre cada trabajo, su estado, los repuestos usados y el avance, para saber siempre qué está haciendo su taller.</p><a class="button button-teal" href="#contacto">Consultar</a></article>
+      <article class="info-card"><span class="icon-box">♟</span><h3>Repuestos ingresados</h3><p>Registre los repuestos que ingresan al taller y consulte cuándo están disponibles para cada trabajo.</p><a class="button button-teal" href="#contacto">Consultar</a></article>
+      <article class="info-card"><span class="icon-box">🛒</span><h3>Compras y proveedores</h3><p>Registre las compras, vincúlelas a los trabajos y mantenga el control de los productos y proveedores.</p><a class="button button-teal" href="#contacto">Consultar</a></article>
+      <article class="info-card"><span class="icon-box">▣</span><h3>Facturación y boletas</h3><p>Administre facturas, boletas y documentos asociados a las operaciones del taller.</p><a class="button button-teal" href="#contacto">Consultar</a></article>
+      <article class="info-card"><span class="icon-box">♟</span><h3>Personal y usuarios</h3><p>Defina usuarios y permisos, y organice la asignación y el control de las tareas del equipo.</p><a class="button button-teal" href="#contacto">Consultar</a></article>
+    </div>
+  </section>
+
+  <section class="section benefits-section" id="beneficios">
+    <div class="section-wrap">
+      <div class="center-heading"><p class="eyebrow">BENEFICIOS</p><h2>Más organización y mayor control del taller.</h2><p>Toda la información del taller se mantiene conectada y disponible, para que su equipo trabaje con datos claros y al día.</p></div>
+      <div class="benefit-grid">
+        <article class="benefit-card"><span class="icon-box">▤</span><h3>Información centralizada</h3><p>Clientes, vehículos, trabajos, repuestos y documentos en un solo lugar, sin revisar archivos por separado.</p></article>
+        <article class="benefit-card"><span class="icon-box">▣</span><h3>Trabaje donde esté</h3><p>Acceda desde el computador, el celular Android y la página web, siempre con la misma información actualizada.</p></article>
+        <article class="benefit-card"><span class="icon-box">▥</span><h3>Mayor control</h3><p>Consulte trabajos en curso, repuestos pendientes y compras registradas para decidir con datos reales.</p></article>
+        <article class="benefit-card"><span class="icon-box">◔</span><h3>Informes claros</h3><p>Obtenga informes de la actividad del taller para revisar productividad, ventas y movimientos.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-wrap platforms-section">
+    <div class="platform-banner"><strong>TODAS LAS PLATAFORMAS TRABAJAN CONECTADAS</strong><div><span>Computador</span><span>Celular Android</span><span>Acceso web</span><span>Múltiples usuarios</span><span>Base de datos única</span><span>Sincronización en línea</span></div></div>
+    <div class="feature-grid">
+      <article class="feature-card"><img src="assets/trabajos-en-curso.jpg" alt="Mecánico trabajando en un vehículo"><h3>Control de trabajos en curso</h3></article>
+      <article class="feature-card"><img src="assets/facturacion-documentos.jpg" alt="Persona revisando documentos y facturación"><h3>Facturación y documentos</h3></article>
+    </div>
+  </section>
+
+  <section class="section section-wrap how-section" id="como-funciona">
+    <div class="center-heading"><p class="eyebrow">CÓMO EMPEZAR</p><h2>Poner su taller en orden, paso a paso.</h2></div>
+    <div class="steps-grid">
+      <article class="step-card"><b>01</b><h3>Configuración inicial</h3><p>Organizamos sus datos, usuarios y módulos según el funcionamiento de su taller.</p></article>
+      <article class="step-card"><b>02</b><h3>Capacitación del equipo</h3><p>Conozca cómo registrar y gestionar presupuestos, trabajos, repuestos, compras y facturación.</p></article>
+      <article class="step-card"><b>03</b><h3>Operación conectada</h3><p>Su equipo empieza a trabajar desde el computador, el celular y la web con una misma base de datos.</p></article>
+    </div>
+  </section>
+
+  <section class="section faq-section" id="faq">
+    <div class="section-wrap">
+      <div class="center-heading"><p class="eyebrow">PREGUNTAS FRECUENTES</p><h2>Preguntas frecuentes sobre el sistema.</h2></div>
+      <div class="faq-list">
+        <details><summary>¿Qué incluye el sistema de gestión para talleres?</summary><p>Incluye presupuestos y cotizaciones, órdenes de trabajo, repuestos ingresados, compras, facturación y boletas, y la administración del personal, todo conectado a una misma base de datos.</p></details>
+        <details><summary>¿Necesito internet para usarlo?</summary><p>Para mantener la información sincronizada entre el computador, el celular Android y la web, se requiere conexión a internet.</p></details>
+        <details><summary>¿Puedo usarlo desde el celular?</summary><p>Sí. Además de la versión para computador y el acceso web, cuenta con una aplicación para Android para registrar trabajos y consultar información directamente en el taller.</p></details>
+        <details><summary>¿Varios usuarios pueden trabajar a la vez?</summary><p>Sí. Puede crear distintos usuarios con permisos específicos para consultar y administrar la información según las funciones asignadas.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-wrap final-cta">
+    <div class="cta-copy"><p class="eyebrow">TODA LA GESTIÓN EN UN SOLO LUGAR</p><h2>Más organización, mayor control y toda la gestión de su taller en un solo sistema.</h2><p>Solicite una demostración y vea cómo presupuestos, órdenes de trabajo, repuestos, compras, facturación y personal trabajan conectados.</p><div class="cta-actions"><a class="button button-coral" href="https://wa.me/56954110918?text=Hola%2C%20quisiera%20conocer%20el%20Sistema%20de%20Gesti%C3%B3n%20para%20Talleres." target="_blank" rel="noopener">Consultar por WhatsApp</a><a class="button button-outline" href="mailto:hyagodec@gmail.com">Enviar correo</a><a class="button button-outline" href="#modulos">Ver módulos</a></div></div>
+    <div class="cta-image"><img src="assets/taller-equipo.jpg" alt="Mecánicos trabajando en un taller automotriz moderno"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div><strong class="footer-logo">HYC</strong><p>Sistema de gestión para talleres: presupuestos, órdenes de trabajo, repuestos, compras, facturación y personal conectados en una misma base de datos.</p></div>
+    <div><h4>EXPLORAR</h4><a href="#modulos">Módulos del sistema</a><a href="#beneficios">Beneficios</a><a href="#como-funciona">Cómo funciona</a><a href="#faq">Preguntas frecuentes</a><a href="Proceso_Gestion_Taller.html" target="_blank" rel="noopener">Infografía</a></div>
+    <div><h4>PLATAFORMAS</h4><div class="footer-pills"><span>Computador</span><span>Android</span><span>Web</span></div><a class="footer-highlight" href="#contacto">Contáctenos</a></div>
+    <div class="footer-contact"><h4>CONTACTO</h4><a href="https://wa.me/56954110918?text=Hola%2C%20quisiera%20conocer%20el%20Sistema%20de%20Gesti%C3%B3n%20para%20Talleres." target="_blank" rel="noopener">WhatsApp: +56 9 5411 0918</a><a href="mailto:hyagodec@gmail.com">hyagodec@gmail.com</a></div>
+  </div>
+  <div class="copyright">© 2026 HYC · Sistema de Gestión para Talleres<p class="developer-credit">Diseño y desarrollo: Héctor Yagode Calabrano<br>Ingeniero en Ejecución y Gestión en Informática</p></div>
+</footer>
+<a class="floating-cta" href="#contacto">✉ Contacto</a>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* Estados del formulario de demostración. */
+.form-note.form-success { color: #16845b; font-weight: 600; }
+.form-note.form-error { color: #c0392b; font-weight: 600; }
+.form-note.form-warning { color: #9a6b00; }
+.form-card button:disabled { opacity: .7; cursor: wait; transform: none; }
+.form-hp { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
